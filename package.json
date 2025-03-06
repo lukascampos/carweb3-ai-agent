@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "carweb3-ai-agent",
   "private": true,
   "scripts": {
     "build": "turbo run build",
