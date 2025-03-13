@@ -1,0 +1,4 @@
+{
+  "extends": "@ai-agent/typescript-config/node.json",
+  "include": ["src/**/*"]
+}
