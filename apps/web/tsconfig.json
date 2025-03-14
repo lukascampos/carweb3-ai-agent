@@ -1,4 +1,11 @@
 {
   "extends": "@ai-agent/typescript-config/next.json",
-  "include": ["src/**/*"]
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ES2017"
+  },
+  "include": [
+    "src/**/*",
+    ".next/types/**/*.ts"
+  ]
 }
