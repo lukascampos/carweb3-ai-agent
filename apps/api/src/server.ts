@@ -18,6 +18,6 @@ app.withTypeProvider<ZodTypeProvider>().get('/', () => 'hello world');
 
 app.register(newQuestionRoute);
 
-app.listen({ port: 3333, host: '0.0.0.0'}).then(() => {
+app.listen({ port: 3333, host: '0.0.0.0' }).then(() => {
   console.log('HTTP server running');
 });
